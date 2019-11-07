@@ -1,0 +1,277 @@
+/* Extra resets */
+/* apply a natural box layout model to all elements, but allowing components to change */
+/*Helpers*/
+.screen-reader-text {
+   clip: rect(1px, 1px, 1px, 1px);
+   position: absolute !important;
+   height: 1px;
+   width: 1px;
+   overflow: hidden;
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  } 
+/* shortcut for a comment type command and / */
+/* Typography */
+header {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body {
+  font-family: 'Raleway-Light';
+  font-size: 16px;
+  color: #2d2d2d;
+}
+h1 {
+  font-family: 'Playfair';
+  font-size: 40px;
+}
+p {
+font-family: 'Raleway';
+font-size: 16px;
+}
+h2{
+  font-family:'Playfair';
+  font-size: 40px;
+}
+.container {
+  display:flex;
+  flex-direction: row;
+  max-width: 100%;
+  margin: 0 auto; /* to center */
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.aloha-logo {
+
+  background-image: url(../images/aloha-logo.svg);
+  width: 7rem;
+  height: 6rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.cart-logo{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/cart-icon.svg);
+  width: 3rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto 0;
+}
+.site-nav{
+  border-style: solid;
+  border-top-color: #a0a0a0;
+  border-top-width: 1px;
+  padding:10px;
+
+}
+
+.container-small {
+    max-width:720px;
+    background-color: blue;
+    margin: 0 auto;
+
+}
+/* banner area */
+.banner {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
+    background-repeat: no-repeat;
+    background-position: center 30px, 100%;
+    background-size: contain, cover;
+    min-height: 60vh;
+    align-items: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 0 grey;
+
+  }
+
+a:link{
+  color: #e2574c;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+a:hover{
+  color:#b64036;
+}
+.about {
+  padding: 100px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mens-trends-glasses{
+  display:flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+}
+.mens{
+  display:flex;
+  width: 50%;
+  margin-right: 10px;
+  background-image: url(../images/mens-category.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+.trends{
+  display:flex;
+  width: 25%;
+  margin-right: 10px;
+  background-image: url(../images/trends-category.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+.glasses{
+  display:flex;
+  height: 200px;
+  width: 25%;
+  background-image: url(../images/glasses-category.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+.sale-bags-womens{
+  display:flex;
+  height: 200px;
+  margin-top: 10px;
+  justify-content: center;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+
+}
+.sale{
+  display: flex;
+  width: 25%;
+  height: 200px;
+  margin-right: 10px;
+  background-image: url(../images/sale-category.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-position: center;
+  font-family: sans-serif;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+.bags{
+  display:flex;
+  height: 200px;
+  margin-right: 10px;
+  width: 25%;
+  background-image: url(../images/bags-category.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: sans-serif;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+.womens{
+  display:flex;
+  height: 200px;
+  width: 50%;
+  background-image: url(../images/womens-category.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-container{
+  padding-bottom: 48px;
+}
+.waves {
+  max-width:100%;
+  min-height: 25rem;
+  margin: 10px 0px;
+  display:flex;
+  flex-direction: column;
+  background-image:url(../images/wave-bkgd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  justify-content: center;
+  align-items: center;
+}
+
+.products{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+} 
+.email{
+  position: relative;
+}
+.submit-button{
+  position: absolute;
+}
+
+footer {
+  display:flex;
+  justify-content: space-between;
+  background-color: #242424;
+  color: whitesmoke;
+}
+.aloha-contacts{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;  
+  flex-wrap: nowrap;
+}
+.social-media {
+  display: flex;
+  padding: 20px;
+  
+  color: whitesmoke;
+}
+/* @media screen (min-width: 600px){
+} */
+/* mobile style */
+.carousel-cell {
+  width: 100%;
+  text-align: center;
+}
+
+/* media query example */
+@media screen and (min-width: 600px) {
+  .carousel-cell {
+    width: 25%;
+  }
+}
