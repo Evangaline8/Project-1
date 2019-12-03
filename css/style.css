@@ -40,13 +40,18 @@ h2{
   font-family:'Playfair';
   font-size: 40px;
 }
+li{
+  margin: 10px;
+}
 .container {
   display:flex;
   flex-direction: row;
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto; /* to center */
   justify-content: space-between;
   align-items: flex-end;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 .aloha-logo {
 
@@ -75,6 +80,9 @@ h2{
   padding:10px;
 
 }
+.site-nav a{
+  margin:10px;
+}
 
 .container-small {
     max-width:720px;
@@ -88,6 +96,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     background-image: url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
+    background-color: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6));
     background-repeat: no-repeat;
     background-position: center 30px, 100%;
     background-size: contain, cover;
@@ -229,6 +238,12 @@ a:hover{
   justify-content: center;
   align-items: center;
 }
+.submit-button{
+  position: absolute;
+  background-color: #e2574c;
+  padding: 5px;
+  border: none;
+}
 
 .products{
   display:flex;
@@ -259,6 +274,7 @@ footer {
   flex-direction: column;
   justify-content:space-between;  
   flex-wrap: nowrap;
+  margin: 25px;
 }
 .social-media {
   display: flex;
