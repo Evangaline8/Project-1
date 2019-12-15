@@ -44,14 +44,15 @@ li{
   margin: 10px;
 }
 .container {
-  display:flex;
+  display: flex;
   flex-direction: row;
   width: 100%;
-  margin: 0 auto; /* to center */
+  /* margin: 0 auto; */
   justify-content: space-between;
   align-items: flex-end;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  /* margin-left: 5rem; */
+  flex-wrap: wrap;
+  /* margin-right: 5rem; */
 }
 .aloha-logo {
 
@@ -63,9 +64,11 @@ li{
   background-size: contain;
 }
 .cart-logo{
-  display:flex;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  align-self: flex-start;
+  /* text-align: right; */
+  /* justify-content: right; */
+  align-items: right;
   background-image: url(../images/cart-icon.svg);
   width: 3rem;
   height: 3rem;
