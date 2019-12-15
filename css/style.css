@@ -40,6 +40,14 @@ h2{
   font-family:'Playfair';
   font-size: 40px;
 }
+h3{
+  font-family: 'Raleway-LightItalic';
+  font-size: 40px;
+}
+h4{
+  font-family: 'Raleway-Bold';
+  font-size: 40px;
+}
 li{
   margin: 10px;
 }
