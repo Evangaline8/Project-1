@@ -49,10 +49,10 @@ li{
   width: 100%;
   /* margin: 0 auto; */
   justify-content: space-between;
-  align-items: flex-end;
-  /* margin-left: 5rem; */
+  /* align-items: flex-end; */
+  margin-left: 1rem; 
   flex-wrap: wrap;
-  /* margin-right: 5rem; */
+  margin-right: 1rem; 
 }
 .aloha-logo {
 
@@ -81,6 +81,8 @@ li{
   border-top-color: #a0a0a0;
   border-top-width: 1px;
   padding:10px;
+  text-align: center;
+  font-family: 'Raleway';
 
 }
 .site-nav a{
